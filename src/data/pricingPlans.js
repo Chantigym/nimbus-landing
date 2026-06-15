@@ -1,0 +1,45 @@
+export const pricingPlans = [
+  {
+    name: 'Starter',
+    price: '$0',
+    period: '/mes',
+    description: 'Ideal para probar la plataforma y proyectos personales.',
+    features: [
+      'Hasta 3 proyectos',
+      '1 usuario',
+      'Soporte por comunidad',
+      'Integraciones básicas',
+    ],
+    cta: 'Empezar gratis',
+    highlighted: false,
+  },
+  {
+    name: 'Pro',
+    price: '$29',
+    period: '/mes',
+    description: 'Para equipos en crecimiento que necesitan más potencia.',
+    features: [
+      'Proyectos ilimitados',
+      'Hasta 10 usuarios',
+      'Soporte prioritario 24/7',
+      'Todas las integraciones',
+      'Analítica avanzada',
+    ],
+    cta: 'Probar 14 días gratis',
+    highlighted: true,
+  },
+  {
+    name: 'Enterprise',
+    price: 'A medida',
+    period: '',
+    description: 'Seguridad y soporte dedicado para grandes organizaciones.',
+    features: [
+      'Usuarios ilimitados',
+      'SLA dedicado',
+      'Single Sign-On (SSO)',
+      'Gestor de cuenta dedicado',
+    ],
+    cta: 'Contactar a ventas',
+    highlighted: false,
+  },
+]
