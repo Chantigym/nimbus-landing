@@ -8,11 +8,11 @@ export default function Features() {
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-neutral-900 md:text-4xl">
-            Todo lo que tu equipo necesita
+            Everything your team needs
           </h2>
           <p className="mt-4 text-base text-neutral-600 md:text-lg">
-            Diseñado para que pases menos tiempo configurando herramientas y
-            más tiempo haciendo crecer tu negocio.
+            Designed so you spend less time configuring tools and more time
+            growing your business.
           </p>
         </div>
 

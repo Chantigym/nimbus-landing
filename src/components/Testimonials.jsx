@@ -8,10 +8,10 @@ export default function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-neutral-900 md:text-4xl">
-            Equipos que ya confían en Nimbus
+            Teams that already trust Nimbus
           </h2>
           <p className="mt-4 text-base text-neutral-600 md:text-lg">
-            Cientos de empresas usan Nimbus para simplificar su día a día.
+            Hundreds of companies use Nimbus to simplify their day-to-day.
           </p>
         </div>
 

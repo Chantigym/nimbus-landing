@@ -9,11 +9,11 @@ export default function Pricing() {
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-neutral-900 md:text-4xl">
-            Precios simples y transparentes
+            Simple, transparent pricing
           </h2>
           <p className="mt-4 text-base text-neutral-600 md:text-lg">
-            Elige el plan que mejor se adapte al tamaño de tu equipo. Cambia o
-            cancela cuando quieras.
+            Choose the plan that best fits your team size. Change or cancel
+            anytime.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function Pricing() {
             >
               {plan.highlighted && (
                 <span className="mb-4 inline-flex w-fit items-center rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
-                  Más popular
+                  Most popular
                 </span>
               )}
               <h3 className="text-xl font-semibold">{plan.name}</h3>

@@ -5,20 +5,20 @@ import icon3 from '../assets/images/features/feature-3-placeholder.svg'
 export const features = [
   {
     icon: icon1,
-    title: 'Rendimiento al instante',
+    title: 'Instant performance',
     description:
-      'Tu equipo trabaja sobre datos actualizados al segundo, sin esperas ni recargas manuales.',
+      'Your team works with data updated to the second, with no waiting or manual refreshes.',
   },
   {
     icon: icon2,
-    title: 'Seguridad de nivel empresarial',
+    title: 'Enterprise-grade security',
     description:
-      'Cifrado de extremo a extremo, controles de acceso por rol y copias de seguridad automáticas.',
+      'End-to-end encryption, role-based access controls, and automatic backups.',
   },
   {
     icon: icon3,
-    title: 'Integraciones nativas',
+    title: 'Native integrations',
     description:
-      'Conecta tus herramientas favoritas en minutos y centraliza todo tu flujo de trabajo.',
+      'Connect your favorite tools in minutes and centralize your entire workflow.',
   },
 ]

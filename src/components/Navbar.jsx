@@ -37,13 +37,13 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Button href="#pricing">Empezar gratis</Button>
+          <Button href="#pricing">Get started</Button>
         </div>
 
         <button
           type="button"
           className="inline-flex items-center justify-center rounded-md p-2 text-neutral-600 hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 md:hidden"
-          aria-label="Abrir menú de navegación"
+          aria-label="Toggle navigation menu"
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
           onClick={() => setIsOpen((open) => !open)}
@@ -76,7 +76,7 @@ export default function Navbar() {
                 </a>
               ))}
               <Button href="#pricing" className="mt-2 justify-center" onClick={() => setIsOpen(false)}>
-                Empezar gratis
+                Get started
               </Button>
             </nav>
           </div>

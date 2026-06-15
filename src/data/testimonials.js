@@ -6,22 +6,22 @@ export const testimonials = [
   {
     avatar: avatar1,
     quote:
-      'Desde que migramos a Nimbus redujimos el tiempo de entrega de reportes de días a minutos. El equipo lo adoptó sin curva de aprendizaje.',
-    name: 'Laura Méndez',
-    role: 'COO, Brisa Logística',
+      'Since we switched to Nimbus, we cut our reporting time from days to minutes. The team adopted it with zero learning curve.',
+    name: 'Laura Mendez',
+    role: 'COO, Brisa Logistics',
   },
   {
     avatar: avatar2,
     quote:
-      'La integración con nuestras herramientas existentes fue inmediata. El soporte respondió en minutos cuando tuvimos dudas durante el onboarding.',
-    name: 'Carlos Ibáñez',
+      'Integrating with our existing tools was instant. Support replied within minutes whenever we had questions during onboarding.',
+    name: 'Carlos Ibanez',
     role: 'CTO, Fintera',
   },
   {
     avatar: avatar3,
     quote:
-      'La seguridad y los controles de acceso nos dieron la confianza para escalar a nivel internacional sin complicaciones de cumplimiento.',
-    name: 'Sofía Reyes',
-    role: 'Head of IT, Grupo Aurora',
+      'The security and access controls gave us the confidence to scale internationally without compliance headaches.',
+    name: 'Sofia Reyes',
+    role: 'Head of IT, Aurora Group',
   },
 ]

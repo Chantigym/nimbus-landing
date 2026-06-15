@@ -2,19 +2,19 @@ import Container from './ui/Container'
 import logo from '../assets/images/logo/logo-placeholder.svg'
 
 const footerLinks = {
-  Producto: [
-    { label: 'Características', href: '#features' },
-    { label: 'Precios', href: '#pricing' },
-    { label: 'Testimonios', href: '#testimonials' },
+  Product: [
+    { label: 'Features', href: '#features' },
+    { label: 'Pricing', href: '#pricing' },
+    { label: 'Testimonials', href: '#testimonials' },
   ],
-  Empresa: [
-    { label: 'Sobre nosotros', href: '#top' },
-    { label: 'Carreras', href: '#top' },
-    { label: 'Contacto', href: '#top' },
+  Company: [
+    { label: 'About us', href: '#top' },
+    { label: 'Careers', href: '#top' },
+    { label: 'Contact', href: '#top' },
   ],
   Legal: [
-    { label: 'Privacidad', href: '#top' },
-    { label: 'Términos de servicio', href: '#top' },
+    { label: 'Privacy', href: '#top' },
+    { label: 'Terms of service', href: '#top' },
   ],
 }
 
@@ -26,8 +26,8 @@ export default function Footer() {
           <div>
             <img src={logo} alt="Nimbus" width="140" height="32" className="h-8 w-auto" />
             <p className="mt-4 max-w-xs text-sm text-neutral-600">
-              La plataforma que centraliza tus métricas, equipos y procesos en
-              un solo lugar.
+              The platform that brings your metrics, teams, and processes
+              together in one place.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-neutral-200 pt-8 text-center text-sm text-neutral-600">
-          © {new Date().getFullYear()} Nimbus. Todos los derechos reservados.
+          © {new Date().getFullYear()} Nimbus. All rights reserved.
         </div>
       </Container>
     </footer>

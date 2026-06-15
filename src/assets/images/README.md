@@ -1,26 +1,26 @@
-# Guía de reemplazo de imágenes
+# Image replacement guide
 
-Estas imágenes son placeholders generados localmente (SVG) para que el sitio
-se vea completo desde el primer momento, sin depender de conexión a internet.
+These images are locally generated SVG placeholders so the site looks
+complete from the start, without relying on an internet connection.
 
-Para usar los assets finales del cliente, reemplaza cada archivo
-**manteniendo el mismo nombre y carpeta**, y respetando la proporción
-indicada para evitar que el layout salte (CLS):
+To use the client's final assets, replace each file **keeping the same
+name and folder**, and respecting the recommended aspect ratio to avoid
+layout shift (CLS):
 
-| Archivo | Uso | Proporción recomendada |
+| File | Used for | Recommended ratio |
 |---|---|---|
-| `logo/logo-placeholder.svg` | Logo en el navbar y footer | ~140x32px (horizontal) |
-| `hero/hero-placeholder.svg` | Imagen/mockup principal del Hero | 4:3 (ej. 1200x900px) |
-| `features/feature-1-placeholder.svg` | Icono de la 1ª característica | Cuadrado, 48x48px |
-| `features/feature-2-placeholder.svg` | Icono de la 2ª característica | Cuadrado, 48x48px |
-| `features/feature-3-placeholder.svg` | Icono de la 3ª característica | Cuadrado, 48x48px |
-| `testimonials/avatar-1-placeholder.svg` | Foto del cliente 1 | Cuadrado, mín. 96x96px |
-| `testimonials/avatar-2-placeholder.svg` | Foto del cliente 2 | Cuadrado, mín. 96x96px |
-| `testimonials/avatar-3-placeholder.svg` | Foto del cliente 3 | Cuadrado, mín. 96x96px |
+| `logo/logo-placeholder.svg` | Logo in the navbar and footer | ~140x32px (horizontal) |
+| `hero/hero-placeholder.svg` | Main Hero image/mockup | 4:3 (e.g. 1200x900px) |
+| `features/feature-1-placeholder.svg` | 1st feature icon | Square, 48x48px |
+| `features/feature-2-placeholder.svg` | 2nd feature icon | Square, 48x48px |
+| `features/feature-3-placeholder.svg` | 3rd feature icon | Square, 48x48px |
+| `testimonials/avatar-1-placeholder.svg` | Customer 1 photo | Square, min. 96x96px |
+| `testimonials/avatar-2-placeholder.svg` | Customer 2 photo | Square, min. 96x96px |
+| `testimonials/avatar-3-placeholder.svg` | Customer 3 photo | Square, min. 96x96px |
 
-Si se reemplazan por formatos `.png`/`.jpg`/`.webp`, actualizar simplemente
-la extensión en el `import` correspondiente dentro de los componentes
+If replaced with `.png`/`.jpg`/`.webp` formats, simply update the
+extension in the corresponding `import` inside the components
 (`src/components/Hero.jsx`, `Features.jsx`, `Testimonials.jsx`, `Navbar.jsx`,
-`Footer.jsx`). Todas las etiquetas `<img>` ya incluyen `width`/`height` o
-clases `aspect-[...]` para reservar el espacio y evitar saltos de layout
-al cargar la imagen final.
+`Footer.jsx`). All `<img>` tags already include `width`/`height` or
+`aspect-[...]` classes to reserve space and avoid layout shifts when the
+final image loads.
